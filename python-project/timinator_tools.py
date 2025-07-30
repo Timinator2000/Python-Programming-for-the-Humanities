@@ -221,108 +221,108 @@ class Exercise():
 
 
 
-class PrintBasedExercise(Exercise):
+# class PrintBasedExercise(Exercise):
 
-    def __init__(self, user_solution, suggested_solution, solution_path):
-        super().__init__(user_solution, suggested_solution, solution_path)
-        self.output_buffer = []
+#     def __init__(self, user_solution, suggested_solution, solution_path):
+#         super().__init__(user_solution, suggested_solution, solution_path)
+#         self.output_buffer = []
                 
-        self.normal_print = builtins.print
-        self.test_case_printing = False
+#         self.normal_print = builtins.print
+#         self.test_case_printing = False
 
 
-    def __del__(self):
-        builtins.print = self.normal_print
+#     def __del__(self):
+#         builtins.print = self.normal_print
 
 
-    def swap_printer(self):
-        self.test_case_printing = not self.test_case_printing
-        if self.test_case_printing:
-            builtins.print = self.new_print
-        else:
-            builtins.print = self.normal_print
-
-            
-    def new_print(self, *args, sep=' ', end='\n', file=sys.stdout, flush=False):
-        if file==sys.stderr:
-            self.normal_print(*args, sep=sep, end=end, file=file, flush=flush)
-        else:
-            string = end.join(str(arg) for arg in args)
-            self.output_buffer.extend(string.split('\n'))
-
-    def generate_answer(self, solution, test_case):
-        self.swap_printer()
-        solution(*deepcopy(test_case))
-        answer = deepcopy(self.output_buffer)
-        self.output_buffer.clear()
-        self.swap_printer()
-        return answer
+#     def swap_printer(self):
+#         self.test_case_printing = not self.test_case_printing
+#         if self.test_case_printing:
+#             builtins.print = self.new_print
+#         else:
+#             builtins.print = self.normal_print
 
             
-    def display_first_failed_test_case(self):
-        expected_answer = self.generate_answer(self.suggested_solution, self.first_failed_test_case)
-        user_answer = self.generate_answer(self.user_solution, self.first_failed_test_case)
+#     def new_print(self, *args, sep=' ', end='\n', file=sys.stdout, flush=False):
+#         if file==sys.stderr:
+#             self.normal_print(*args, sep=sep, end=end, file=file, flush=flush)
+#         else:
+#             string = end.join(str(arg) for arg in args)
+#             self.output_buffer.extend(string.split('\n'))
+
+#     def generate_answer(self, solution, test_case):
+#         self.swap_printer()
+#         solution(*deepcopy(test_case))
+#         answer = deepcopy(self.output_buffer)
+#         self.output_buffer.clear()
+#         self.swap_printer()
+#         return answer
+
             
-        expected_answer_format = self.data_type(expected_answer)
-        user_answer_format = self.data_type(user_answer)
+#     def display_first_failed_test_case(self):
+#         expected_answer = self.generate_answer(self.suggested_solution, self.first_failed_test_case)
+#         user_answer = self.generate_answer(self.user_solution, self.first_failed_test_case)
+            
+#         expected_answer_format = self.data_type(expected_answer)
+#         user_answer_format = self.data_type(user_answer)
 
-        if expected_answer_format != user_answer_format:
+#         if expected_answer_format != user_answer_format:
 
-            self.send_msg(self.bug_channel, 'First Failed Test Case: Incorrect Data Types:')
-            self.send_msg(self.bug_channel, '    I DOUBT THIS COULD REALLY HAPPEN')
-            self.send_msg(self.bug_channel, f'   Expected answer format = {expected_answer_format}')
-            self.send_msg(self.bug_channel, f'   Expected answer        = {expected_answer}')
-            self.send_msg(self.bug_channel, '')
-            self.send_msg(self.bug_channel, f'   Your answer format = {user_answer_format}')
-            self.send_msg(self.bug_channel, f'   Your answer        = {user_answer}')
-            self.send_msg(self.bug_channel, '')
-            self.send_msg(self.bug_channel, 'Input:')
-            self.send_msg(self.bug_channel, '')
-            self.display_test_case(self.first_failed_test_case)
+#             self.send_msg(self.bug_channel, 'First Failed Test Case: Incorrect Data Types:')
+#             self.send_msg(self.bug_channel, '    I DOUBT THIS COULD REALLY HAPPEN')
+#             self.send_msg(self.bug_channel, f'   Expected answer format = {expected_answer_format}')
+#             self.send_msg(self.bug_channel, f'   Expected answer        = {expected_answer}')
+#             self.send_msg(self.bug_channel, '')
+#             self.send_msg(self.bug_channel, f'   Your answer format = {user_answer_format}')
+#             self.send_msg(self.bug_channel, f'   Your answer        = {user_answer}')
+#             self.send_msg(self.bug_channel, '')
+#             self.send_msg(self.bug_channel, 'Input:')
+#             self.send_msg(self.bug_channel, '')
+#             self.display_test_case(self.first_failed_test_case)
 
-        elif expected_answer != user_answer:
+#         elif expected_answer != user_answer:
         
-            self.send_msg(self.bug_channel, 'First Failed Test Case:')
-            self.send_msg(self.bug_channel, '')
-            self.send_msg(self.bug_channel, f'Your Output:')
-            self.send_msg(self.bug_channel, '')
+#             self.send_msg(self.bug_channel, 'First Failed Test Case:')
+#             self.send_msg(self.bug_channel, '')
+#             self.send_msg(self.bug_channel, f'Your Output:')
+#             self.send_msg(self.bug_channel, '')
 
-            expected_answer_length = len(expected_answer)
-            user_answer_length = len(user_answer)
-            for i in range(max(expected_answer_length, user_answer_length)):
-                if i == expected_answer_length:
-                    too_many = user_answer_length - i
-                    msg = f'Your answer should have ended right where it is. The following '
-                    msg += f'{too_many} line{"s" if too_many > 1 else ""} should not have been printed.'
-                    self.send_msg(self.bug_channel, '')
-                    self.send_msg(self.bug_channel, msg)
-                    self.send_msg(self.bug_channel, '')
+#             expected_answer_length = len(expected_answer)
+#             user_answer_length = len(user_answer)
+#             for i in range(max(expected_answer_length, user_answer_length)):
+#                 if i == expected_answer_length:
+#                     too_many = user_answer_length - i
+#                     msg = f'Your answer should have ended right where it is. The following '
+#                     msg += f'{too_many} line{"s" if too_many > 1 else ""} should not have been printed.'
+#                     self.send_msg(self.bug_channel, '')
+#                     self.send_msg(self.bug_channel, msg)
+#                     self.send_msg(self.bug_channel, '')
 
-                if i == user_answer_length:
-                    missing = expected_answer_length - i
-                    msg = f'Your answer is correct so far, but you are missing the following '
-                    msg += f'{missing} line' + 's.'[missing == 1:]
-                    self.send_msg(self.bug_channel, '')
-                    self.send_msg(self.bug_channel, msg)
-                    self.send_msg(self.bug_channel, '')
+#                 if i == user_answer_length:
+#                     missing = expected_answer_length - i
+#                     msg = f'Your answer is correct so far, but you are missing the following '
+#                     msg += f'{missing} line' + 's.'[missing == 1:]
+#                     self.send_msg(self.bug_channel, '')
+#                     self.send_msg(self.bug_channel, msg)
+#                     self.send_msg(self.bug_channel, '')
             
-                expected_line = '' if i >= expected_answer_length else expected_answer[i]
-                user_line = '' if i >= user_answer_length else user_answer[i]
+#                 expected_line = '' if i >= expected_answer_length else expected_answer[i]
+#                 user_line = '' if i >= user_answer_length else user_answer[i]
 
-                if user_line:
-                    self.send_msg(self.bug_channel, user_line)
-                    if expected_line and expected_line != user_line:
-                        msg = f'There is a problem with the most recent line '
-                        msg += f'of your output. It should have been...'
-                        self.send_msg(self.bug_channel, '')
-                        self.send_msg(self.bug_channel, msg)
-                        self.send_msg(self.bug_channel, '')
-                        self.send_msg(self.bug_channel, expected_line)
-                        break
-                else:
-                    self.send_msg(self.bug_channel, expected_line)
+#                 if user_line:
+#                     self.send_msg(self.bug_channel, user_line)
+#                     if expected_line and expected_line != user_line:
+#                         msg = f'There is a problem with the most recent line '
+#                         msg += f'of your output. It should have been...'
+#                         self.send_msg(self.bug_channel, '')
+#                         self.send_msg(self.bug_channel, msg)
+#                         self.send_msg(self.bug_channel, '')
+#                         self.send_msg(self.bug_channel, expected_line)
+#                         break
+#                 else:
+#                     self.send_msg(self.bug_channel, expected_line)
                             
-            self.send_msg(self.bug_channel, '')
-            self.send_msg(self.bug_channel, f'Input:')
-            self.send_msg(self.bug_channel, '')
-            self.display_test_case(self.first_failed_test_case)
+#             self.send_msg(self.bug_channel, '')
+#             self.send_msg(self.bug_channel, f'Input:')
+#             self.send_msg(self.bug_channel, '')
+#             self.display_test_case(self.first_failed_test_case)
