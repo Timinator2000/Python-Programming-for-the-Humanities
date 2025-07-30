@@ -1,3 +1,3 @@
-![PySkillz](PySkillz_3.png)
+![PySkillz](cover.png)
 
 # Under Construction
