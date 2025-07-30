@@ -11,7 +11,6 @@ plan:
       - title: Section 1
         statement: Under Construction.md
   - title: List Comprehensions
-    description: This is the list comprehension lesson description.
     plan:
       - title: Section 2
         statement: Under Construction.md
