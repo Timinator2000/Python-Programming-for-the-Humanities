@@ -5,15 +5,15 @@ plan:
   - title: Welcome
     plan:
       - title: Introduction
-        statement: Under Construction.md
+        statement: markdowns/Under Construction.md
   - title: Loops
     plan:
       - title: Section 1
-        statement: Under Construction.md
+        statement: markdowns/Under Construction.md
   - title: List Comprehensions
     plan:
       - title: Section 2
-        statement: Under Construction.md
+        statement: markdowns/Under Construction.md
 
 # projects:
 #   python:
