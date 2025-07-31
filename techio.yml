@@ -6,9 +6,9 @@ plan:
     plan:
       - title: Introduction
         statement: markdowns/welcome.md
-  - title: Chapter 1
+  - title: Chapter 1: Getting Started
     plan:
-      - title: Getting Started
+      - title: Introduction
         statement: markdowns/getting started.md
       - title: String Manipulation
         statement: markdowns/Under Construction.md
@@ -21,6 +21,20 @@ plan:
       - title: Loops
         statement: markdowns/Under Construction.md
       - title: Final Quiz!
+        statement: markdowns/Under Construction.md
+  - title: Chapter 2: First Steps Into Text Processing
+    plan:
+      - title: Introduction
+        statement: markdowns/Under Construction.md
+      - title: Reading Files
+        statement: markdowns/Under Construction.md
+      - title: Writing Our First Function
+        statement: markdowns/Under Construction.md
+      - title: A More General Count Function
+        statement: markdowns/Under Construction.md
+      - title: Text Clean Up
+        statement: markdowns/Under Construction.md
+      - title: Writing Results to a File
         statement: markdowns/Under Construction.md
 # projects:
 #   python:
