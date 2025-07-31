@@ -91,6 +91,7 @@ Let's use this in an `if-elif-else` combination:
 
 ```python runnable
 word = "rocket science"
+
 if "a" in word:
     print(word + " contains the letter a")
 elif "s" in word:
@@ -113,6 +114,7 @@ Up to this point, our conditions have consisted of single expresssions. However,
 
 ```python runnable
 word = "banana"
+
 if "a" in word and "b" in word:
     print("Both a and b are in " + word)
 ```
@@ -120,6 +122,8 @@ if "a" in word and "b" in word:
 If one of the expressions evaluates to `False`, nothing will be printed:
 
 ```python runnable
+word = "banana"
+
 if "a" in word and "z" in word:
     print("Both a and z are in " + word)
 ```
@@ -130,6 +134,7 @@ Replace `and` with `or` in the `if` statement below. What happens?
 
 ```python runnable
 word = "banana"
+
 if "a" in word and "z" in word:
     print("Both a and b are in " + word)
 ```
@@ -137,6 +142,8 @@ if "a" in word and "z" in word:
 In the code block below, can you add an `else` statement that prints that none of the letters were found?
 
 ```python runnable
+word = "banana"
+
 if "a" in word and "z" in word:
     print("Both a and z are in " + word)
 # insert your code here
@@ -145,6 +152,8 @@ if "a" in word and "z" in word:
 Finally we can use `not` to test for conditions that are not true.
 
 ```python runnable
+word = "banana"
+
 if "z" not in word:
     print("z is not in " + word)
 ```
@@ -153,6 +162,7 @@ Objects, such as strings or integers or lists are `True` because they exist. Emp
 
 ```python runnable
 numbers = [1, 2, 3, 4]
+
 if numbers:
     print("I found some numbers!")
 ```
@@ -161,6 +171,7 @@ Now if our list were empty, Python wouldn't print anything:
 
 ```python runnable
 numbers = []
+
 if numbers:
     print("I found some numbers!")
 ```
@@ -171,6 +182,7 @@ Can you write code that prints "This is an empty list" if the provided list does
 
 ```python runnable
 numbers = []
+
 # insert your code here
 ```
 
@@ -178,6 +190,7 @@ Can you do the same thing, but this time using the function `len()`?
 
 ```python runnable
 numbers = []
+
 # insert your code here
 ```
 
