@@ -2,6 +2,15 @@
 >_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_
 >
 
+<BR>
+
+| <span style="font-size: 250%">_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</span>|
+|:-------:|
+
+<BR>
+
+
+
 ```python
 print("Ready, set, GO!")
 ```
