@@ -145,3 +145,10 @@ To finish this section, here is an overview of the concepts you have learnt. Go 
 * strings
 * integers
 * varying variables
+
+<BR>
+
+----
+
+[Creative Commons](CreativeCommons.png)
+Python Programming for the Humanities by http://fbkarsdorp.github.io/python-course is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Based on a work at https://github.com/fbkarsdorp/python-course.
