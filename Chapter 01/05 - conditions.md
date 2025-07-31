@@ -101,7 +101,7 @@ else:
 
 # Quiz!
 
-Let's practice our new condition skills a little. Write a small program that defines a variable `weight`. If the weight is > 50 pounds, print "There is a $25 charge for luggage that heavy." If it is not, print: "Thank you for your business." Change the value of weight to see both statements. (Tip: make use of the < or > operators)
+Let's practice our new condition skills a little. Write a small program that defines a variable `weight`. If the weight is > 50 pounds, print "There is a $25 charge for luggage that heavy." If it is not, print: "Thank you for your business." Change the value of weight to see both statements. (Tip: make use of the `<` or `>` operators)
 
 ```python runnable
 # insert your code here
