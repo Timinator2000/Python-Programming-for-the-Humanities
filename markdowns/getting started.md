@@ -4,7 +4,7 @@
 
 <BR>
 
-| <span style="font-size: 250%">_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</span>|
+| <span style="font-size: 150%">_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</span>|
 |:-------:|
 
 <BR>
