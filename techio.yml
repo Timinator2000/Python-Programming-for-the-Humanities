@@ -9,7 +9,7 @@ plan:
   - title: Chapter 1
     plan:
       - title: Getting Started
-        statement: markdowns/Under Construction.md
+        statement: markdowns/getting started.md
       - title: String Manipulation
         statement: markdowns/Under Construction.md
       - title: Lists
