@@ -52,14 +52,17 @@ Update the new good reads datastructure with your own books. Try to print out th
 To retrieve a list of all the books we have in our collection, we can ask the dictionary to return its keys as a list:
 
 ```python runnable
-books = good_reads.keys()
-print(books)
+good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
+
+print(good_reads.keys())
 ```
 
 Similarly we can ask for the values:
 
-```python
-good_reads.values()
+```python runnable
+good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
+
+print(good_reads.values())
 ```
 
 # What we have learnt
