@@ -44,6 +44,7 @@ Write a small program that defines a variable `first_word` and assign to it the 
 
 ```python runnable
 sentence = "Python's name is derived from the television series Monty Python's Flying Circus."
+words = sentence.split()
 
 first_word = # insert your code here
 print(first_word)
