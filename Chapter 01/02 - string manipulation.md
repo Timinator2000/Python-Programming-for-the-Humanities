@@ -142,7 +142,6 @@ print(middle_letters)
 
 <BR>
 
-
 Given the following two words, can you write code that prints out the word _humanities_ using only slicing and concatenation? (So, no quotes are allowed in your code.)
 
 ```python runnable
@@ -163,7 +162,7 @@ To finish this section, here is an overview of what we have learnt. Go through t
 * slicing
 * `len()`
 
-
+<BR>
 
 ----
 
