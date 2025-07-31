@@ -10,22 +10,16 @@ plan:
     plan:
       - title: Getting Started
         statement: markdowns/Under Construction.md
-    plan:
       - title: String Manipulation
         statement: markdowns/Under Construction.md
-    plan:
       - title: Lists
         statement: markdowns/Under Construction.md
-    plan:
       - title: Dictionaries
         statement: markdowns/Under Construction.md
-    plan:
       - title: Conditions
         statement: markdowns/Under Construction.md
-    plan:
       - title: Loops
         statement: markdowns/Under Construction.md
-    plan:
       - title: Final Quiz!
         statement: markdowns/Under Construction.md
         
