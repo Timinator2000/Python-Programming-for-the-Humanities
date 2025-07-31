@@ -188,6 +188,7 @@ good_reads = []
 
 good_reads.append(["Pride and Prejudice", 8])
 good_reads.append(["A Clockwork Orange", 9])
+print(good_reads)
 ```
 
 <BR>
