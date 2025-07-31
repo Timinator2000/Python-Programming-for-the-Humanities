@@ -14,14 +14,16 @@ print("Ready, set, GO!")
 
 Everyone can learn how to program and the best way to learn is by doing. In this tutorial you will be asked to write a lot of code. [see note below] Let's begin right away and write our first little program!
 
->Playground note: Feel free to try anything in any editable code box. If you need to, you can always click the "Reset code" button in the top right corner of the code box if you think things are messed up beyond repair.
+<BR>
+
+>__Playground Note:__ Feel free to try anything in any editable code box. If you need to, you can always click the "Reset code" button in the top right corner of the code box if you think things are messed up beyond repair.
 
 
 # Quiz!
 
 In the code box below, write a simple program that calculates how many minutes there are in seven weeks.
 
->Playground note: you must put your calculation inside a print statement like this:
+>__Playground Note:__ you must put your calculation inside a print statement like this:
 
 ```python
 print(3+4)
