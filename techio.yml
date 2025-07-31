@@ -13,7 +13,7 @@ plan:
       - title: String Manipulation
         statement: Chapter 01/02 - string manipulation.md
       - title: Lists
-        statement: markdowns/Under Construction.md
+        statement: Chapter 01/03 - lists.md
       - title: Dictionaries
         statement: markdowns/Under Construction.md
       - title: Conditions
