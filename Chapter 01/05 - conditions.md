@@ -43,7 +43,7 @@ A lot of new syntax here. Let's go through it step by step. First we ask if the 
 ```python runnable
 good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
 
-book = "A Clockwork Orange"
+book = "The Hunger Games"
 print(book in good_reads)
 ```
 
@@ -63,7 +63,6 @@ good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
 if "A Clockwork Orange" in good_reads:
     print("Found it!")
 
-# This works too!
 book = "The Hunger Games"
 if book in good_reads:
     print("Found it!")
