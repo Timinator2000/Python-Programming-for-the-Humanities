@@ -10,6 +10,6 @@
 print("Ready, set, GO!")
 ```
 
-Everyone can learn how to program and the best way to learn is by doing. In this tutorial you will be asked to write a lot of code. Click any block of code in this tutorial, such as the one above, and press ctrl+enter to run it. Let's begin right away and write our first little program!
+Everyone can learn how to program and the best way to learn is by doing. In this tutorial you will be asked to write a lot of code. [Click run below any code block to execute the code shown.] Let's begin right away and write our first little program!
 
 
