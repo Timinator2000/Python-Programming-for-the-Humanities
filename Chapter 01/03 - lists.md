@@ -8,64 +8,136 @@
 
 Consider the sentence below:
 
+```python
 sentence = "Python's name is derived from the television series Monty Python's Flying Circus."
+```
+
+<BR>
+
 Words are made up of characters, and so are string objects in Python. As we will see, it is always to be prefered to represent our data as naturally as possible. Now for the sentence above, it seems more natural to describe it in terms of words than in terms of characters. Say we want to access the first word in our sentence. If we type in:
+
+```python runnable
+sentence = "Python's name is derived from the television series Monty Python's Flying Circus."
 
 first_word = sentence[0]
 print(first_word)
-Python only prints the first letter of our sentence. (Think about this if you do not understand why.) We can transform our sentence into a list of words (represented by strings) using the split() function as follows:
+```
+
+<BR>
+
+Python only prints the first letter of our sentence. (Think about this if you do not understand why.) We can transform our sentence into a `list` of words (represented by strings) using the `split()` function as follows:
+
+```python runnable
+sentence = "Python's name is derived from the television series Monty Python's Flying Circus."
 
 words = sentence.split()
 print(words)
+```
+
+<BR>
+
 By issuing the function split on our sentence, Python splits the sentence on spaces and returns a list of words. In many ways a list functions like a string. We can access all of its components using indexes and we can use slice indexes to access parts of the list. Let's try it!
 
-Quiz!
-Write a small program that defines a variable first_word and assign to it the first word of our word list. Play around a little with the indexes to see if you really understand how it works.
+# Quiz!
+
+Write a small program that defines a variable `first_word` and assign to it the first word of our word list. Play around a little with the indexes to see if you really understand how it works.
+
+```python runnable
+sentence = "Python's name is derived from the television series Monty Python's Flying Circus."
 
 first_word = # insert your code here
 print(first_word)
-A list acts like a container where we can store all kinds of information. We can access a list using indexes and slices. We can also add new items to a list. For that you use the method append. Let's see how it works. Say we want to keep a list of all our good reads. We start with an empty list and we will add some good books to it:
+```
 
+<BR>
+
+A `list` acts like a container where we can store all kinds of information. We can access a list using indexes and slices. We can also add new items to a list. For that you use the method `append`. Let's see how it works. Say we want to keep a list of all our good reads. We start with an empty list and we will add some good books to it:
+
+```python runnable
 #start with an empty list
 good_reads = []
-good_reads.append("The Hunger games")
+good_reads.append("The Hunger Games")
 good_reads.append("A Clockwork Orange")
 print(good_reads)
+```
+
 Now, if for some reason we don't like a particular book anymore, we can change it as follows:
+
+```python runnable
+good_reads = ["The Hunger Games", "A Clockwork Orange"]
 
 good_reads[0] = "Pride and Prejudice"
 print(good_reads)
-Quiz!
+```
+
+<BR>
+
+# Quiz!
+
 Here's another small Quiz! Try to change the title of the second book in our good reads collection.
+
+```python runnable
+good_reads = ["Pride and Prejudice", "A Clockwork Orange"]
 
 # insert your code here
 print(good_reads)
+```
+
+<BR>
+
 We just changed one element in a list. Note that if you do the same thing for a string, you will get an error:
 
+```python runnable
 name = "Pythen"
 name[4] = "o"
-This is because strings (and some other types) are immutable. That is, they cannot be changed, as opposed to lists which are mutable. Let's explore some other ways in which we can manipulate lists.
+```
 
-remove()
-Let's assume our good read collection has grown a lot and we would like to remove some of the books from the list. Python provides the method remove that acts upon a list and takes as its argument the items we would like to remove.
+<BR>
 
-good_reads = ["The Hunger games", "A Clockwork Orange", 
+This is because `strings` (and some other types) are _immutable_. That is, they cannot be changed, as opposed to `lists` which are mutable. Let's explore some other ways in which we can manipulate lists.
+
+# remove()
+
+Let's assume our good read collection has grown a lot and we would like to remove some of the books from the list. Python provides the method `remove` that acts upon a list and takes as its argument the items we would like to remove.
+
+```python runnable
+good_reads = ["The Hunger Games", "A Clockwork Orange", 
               "Pride and Prejudice", "Water for Elephants",
               "The Shadow of the Wind", "Bel Canto"]
 
 good_reads.remove("Water for Elephants")
 
 print(good_reads)
-If we try to remove a book that is not in our collection, Python raises an error (don't be afraid, your computer won't break ;-))
+```
+
+<BR>
+
+If we try to remove a book that is not in our collection, Python raises an error (don't be afraid, your computer won't break 😉).
+
+```python runnable
+good_reads = ["The Hunger Games", "A Clockwork Orange", 
+              "Pride and Prejudice", "Water for Elephants",
+              "The Shadow of the Wind", "Bel Canto"]
 
 good_reads.remove("White Oleander")
-Quiz!
-Define a variable good_reads as an empty list. Now add some of your favorite books to it (at least three) and print the last two books you added.
+```
 
+<BR>
+
+# Quiz!
+
+Define a variable `good_reads` as an empty list. Now add some of your favorite books to it (at least three) and print the last two books you added.
+
+```python runnable
 # insert your code here
+```
+
+<BR>
+
 Just as with strings, we can concatenate two lists. Here is an example:
 
-#first we specify two lists of strings:
+```python runnable
+# first we specify two lists of strings:
 good_reads = ["The Hunger games", "A Clockwork Orange", 
               "Pride and Prejudice", "Water for Elephants",
               "The Shadow of the Wind", "Bel Canto"]
@@ -74,12 +146,27 @@ bad_reads = ["Fifty Shades of Grey", "Twilight"]
 
 all_reads = good_reads + bad_reads
 print(all_reads)
-sort()
+```
+
+<BR>
+
+# sort()
+
 It is always nice to organise your bookshelf. We can sort our collection with the following expression:
+
+```python runnable
+good_reads = ["The Hunger games", "A Clockwork Orange", 
+              "Pride and Prejudice", "Water for Elephants",
+              "The Shadow of the Wind", "Bel Canto"]
 
 good_reads.sort()
 print(good_reads)
-nested lists
+```
+
+<BR>
+
+# nested lists
+
 Up to this point, our lists only have consisted of strings. However, a list can contain all kinds of data types, such as integers and even lists! Do you understand what is happening in the following example?
 
 nested_list = [[1, 2, 3, 4], [5, 6, 7, 8]]
