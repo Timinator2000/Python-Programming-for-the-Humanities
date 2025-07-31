@@ -123,9 +123,45 @@ print(last_two_letters)
 
 Take a look at the following picture. Do you fully understand it?
 
+<BR>
+
 ![String Slicing](string_slicing.png)
 
+<BR>
 
+# Quiz!
+
+Can you define a variable `middle_letters` and assign to it all letters of your name except for the first two and the last two?
+
+```python runnable
+name = "Grace Hopper"
+
+middle_letters = # insert your code here
+print(middle_letters)
+```
+
+<BR>
+
+
+Given the following two words, can you write code that prints out the word _humanities_ using only slicing and concatenation? (So, no quotes are allowed in your code.)
+
+```python runnable
+word1 = "human"
+word2 = "opportunities"
+# insert your code here
+```
+
+<BR>
+
+
+# What we have learnt
+
+To finish this section, here is an overview of what we have learnt. Go through the list and make sure you understand all the concepts.
+
+* concatenation (e.g. addition of strings)
+* indexing
+* slicing
+* `len()`
 
 
 
