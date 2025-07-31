@@ -1,4 +1,6 @@
+>
 >_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_
+>
 
 ```python runnable
 print("Ready, set, GO!")
