@@ -6,9 +6,7 @@
 
 <BR>
 
--------
-
-```python
+```python runnable
 print("Ready, set, GO!")
 ```
 
