@@ -51,8 +51,9 @@ Update the new good reads datastructure with your own books. Try to print out th
 
 To retrieve a list of all the books we have in our collection, we can ask the dictionary to return its keys as a list:
 
-```python
-good_reads.keys()
+```python runnable
+books = good_reads.keys()
+print(books)
 ```
 
 Similarly we can ask for the values:
