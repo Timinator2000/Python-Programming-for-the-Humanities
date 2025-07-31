@@ -128,7 +128,7 @@ To finish this section, here is an overview of the concepts you have learnt. Go 
 
 ----
 
-<p style="text-align: center;"> [Python Programming for the Humanities](http://fbkarsdorp.github.io/python-course) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Based on a work at https://github.com/fbkarsdorp/python-course. </p>
+[Python Programming for the Humanities](http://fbkarsdorp.github.io/python-course) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Based on a work at https://github.com/fbkarsdorp/python-course.
 
 ![Creative Commons](CreativeCommons.png)
 
