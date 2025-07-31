@@ -169,32 +169,49 @@ print(good_reads)
 
 Up to this point, our lists only have consisted of strings. However, a list can contain all kinds of data types, such as integers and even lists! Do you understand what is happening in the following example?
 
+```python runnable
 nested_list = [[1, 2, 3, 4], [5, 6, 7, 8]]
 print(nested_list[0])
 print(nested_list[0][0])
-We can put this to use to enhance our good read collection with a score for every book we have. An entry in our collection will consist of a score within the range of 1 and 10 and the title of our book. The first element is the title; the second the score: [title, score]. We initialize an empty list:
+```
 
+<BR>
+
+We can put this to use to enhance our good read collection with a score for every book we have. An entry in our collection will consist of a score within the range of 1 and 10 and the title of our book. The first element is the title; the second the score: `[title, score]`.
+
+```python runnable
+# initialize an empty list
 good_reads = []
-And add two books to it:
+
+# add two books to the list:
 
 good_reads.append(["Pride and Prejudice", 8])
 good_reads.append(["A Clockwork Orange", 9])
-Quiz!
-Update the good_reads collection with some of your own books and give them all a score. Can you print out the score you gave to the first book in the list? (Tip: you can pile up indexes)
+```
 
+<BR>
+
+# Quiz!
+
+Update the `good_reads` collection with some of your own books and give them all a score. Can you print out the score you gave to the first book in the list? (Tip: you can pile up indexes)
+
+```python runnable
 # insert your code here
-What we have learnt
+```
+
+<BR>
+
+# What we have learnt
+
 To finish this section, here is an overview of the new concepts and functions you have learnt. Go through them and make sure you understand them all.
 
-list
-mutable versus immutable
-.split()
-.append()
-nested lists
-.remove()
-.sort()
-
-
+* list
+* _mutable_ versus _immutable_
+* `.split()`
+* `.append()`
+* nested lists
+* `.remove()`
+* `.sort()`
 
 <BR>
 
