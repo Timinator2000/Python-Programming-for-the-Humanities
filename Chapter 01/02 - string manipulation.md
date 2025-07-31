@@ -14,7 +14,6 @@ name = "Grace Hopper"
 book = "The Lord of the Flies"
 print(name + " likes " + book + "?")
 ```
-<BR>
 
 This string consists of a number of characters. We can access the individual characters with the help of `indexing`. For example, to find only the first letter of your name, you can type in:
 
@@ -24,8 +23,6 @@ name = "Grace Hopper"
 first_letter = name[0]
 print(first_letter)
 ```
-
-<BR>
 
 Notice that to access the first letter, we use the index `0`. This might seem odd, but just remember that indexes in Python start at zero.
 
@@ -40,8 +37,6 @@ last_letter = name[# fill in the last index of the name above (tip indexes start
 print(last_letter)
 ```
 
-<BR>
-
 It is rather inconvenient having to know how long our strings are if we want to find out what its last letter is. Python provides a simple way of accessing a string from the rear:
 
 ```python runnable
@@ -51,8 +46,6 @@ last_letter = name[-1]
 print(last_letter)
 ```
 
-<BR>
-
 Alternatively, there is the function `len()` which returns the length of a string:
 
 ```python runnable
@@ -61,8 +54,6 @@ name = "Grace Hopper"
 print(len(name))
 ```
 
-<BR>
-
 Do you understand the following?
 
 ```python runnable
@@ -70,8 +61,6 @@ name = "Grace Hopper"
 
 print(name[len(name)-1])
 ```
-
-<BR>
 
 # Quiz!
 
@@ -84,9 +73,6 @@ but_last_letter = # insert your code here
 print(but_last_letter)
 ```
 
-<BR>
-
-
 You're starting to become a real expert in indexing strings. Now what if we would like to find out what the last two or three letters of our name are? In Python we can use so-called slice-indexes or slices for short. To find the first two letters of our name we type in:
 
 ```python runnable
@@ -95,8 +81,6 @@ name = "Grace Hopper"
 first_two_letters = name[0:2]
 print(first_two_letters)
 ```
-
-<BR>
 
 The `0` index is optional, so we could just as well type in `name[:2]`. This says take all characters of name until you reach index 2. We can also start at index 2 and leave the end index unspecified:
 
@@ -107,9 +91,6 @@ without_first_two_letters = name[2:]
 print(without_first_two_letters)
 ```
 
-<BR>
-
-
 Because we did not specify the end index, Python continues until it reaches the end of our string. If we would like to find out what the last two letters of our name are, we can type in:
 
 ```python runnable
@@ -118,8 +99,6 @@ name = "Grace Hopper"
 last_two_letters = name[-2:]
 print(last_two_letters)
 ```
-
-<BR>
 
 Take a look at the following picture. Do you fully understand it?
 
@@ -140,8 +119,6 @@ middle_letters = # insert your code here
 print(middle_letters)
 ```
 
-<BR>
-
 Given the following two words, can you write code that prints out the word _humanities_ using only slicing and concatenation? (So, no quotes are allowed in your code.)
 
 ```python runnable
@@ -149,9 +126,6 @@ word1 = "human"
 word2 = "opportunities"
 # insert your code here
 ```
-
-<BR>
-
 
 # What we have learnt
 
