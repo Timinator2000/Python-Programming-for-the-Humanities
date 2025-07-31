@@ -17,7 +17,7 @@ plan:
       - title: Dictionaries
         statement: Chapter 01/04 - dictionaries.md
       - title: Conditions
-        statement: Chapter 01/03 - conditions.md
+        statement: Chapter 01/05 - conditions.md
       - title: Loops
         statement: markdowns/Under Construction.md
       - title: Final Quiz!
