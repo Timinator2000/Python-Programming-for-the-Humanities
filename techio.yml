@@ -15,9 +15,9 @@ plan:
       - title: Lists
         statement: Chapter 01/03 - lists.md
       - title: Dictionaries
-        statement: markdowns/Under Construction.md
+        statement: Chapter 01/04 - dictionaries.md
       - title: Conditions
-        statement: markdowns/Under Construction.md
+        statement: Chapter 01/03 - conditions.md
       - title: Loops
         statement: markdowns/Under Construction.md
       - title: Final Quiz!
