@@ -28,9 +28,10 @@ plan:
     plan:
       - title: Final Quiz!
         statement: markdowns/Under Construction.md
-projects:
-  python:
-    root: /python-project
-    runner: 
-      name: python
-      version: '3'
+        
+# projects:
+#   python:
+#     root: /python-project
+#     runner: 
+#       name: python
+#       version: '3'
