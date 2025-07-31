@@ -12,7 +12,9 @@ print("Ready, set, GO!")
 
 <BR>
 
-Everyone can learn how to program and the best way to learn is by doing. In this tutorial you will be asked to write a lot of code. [Click run below any code block to execute the code shown.] Let's begin right away and write our first little program!
+Everyone can learn how to program and the best way to learn is by doing. In this tutorial you will be asked to write a lot of code. [see note below] Let's begin right away and write our first little program!
+
+>Playground note: Feel free to try anything in any editable code box. If you need to, you can always click the "Reset code" button in the top right corner of the code box if you think things are messed up beyond repair.
 
 
 # Quiz!
