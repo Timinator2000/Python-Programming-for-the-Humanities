@@ -46,6 +46,7 @@ Now that we stored the value 2 in `x`, we can use the variable `x` to do things 
 
 ```python runnable
 x = 2
+
 print(x * x)
 print(x == x)
 print(x > 6)
@@ -101,8 +102,8 @@ Updates like these happen a lot. Python therefore provides a shortcut and you ca
 
 ```python runnable
 number_of_books = 100
-
 number_of_books = number_of_books + 1
+
 number_of_books += 5
 print(number_of_books)
 ```
