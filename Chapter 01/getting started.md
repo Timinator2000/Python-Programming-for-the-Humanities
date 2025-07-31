@@ -4,7 +4,7 @@
 |:-------:|
 | <span style="font-size: 100%"><b>_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</b></span>|
 
-<BR>
+# Getting Started
 
 ```python runnable
 print("Ready, set, GO!")
