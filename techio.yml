@@ -19,7 +19,7 @@ plan:
       - title: Conditions
         statement: Chapter 01/05 - conditions.md
       - title: Loops
-        statement: markdowns/Under Construction.md
+        statement: Chapter 01/06 - loops.md
       - title: Final Quiz!
         statement: markdowns/Under Construction.md
   - title: Chapter 2 - First Steps Into Text Processing
