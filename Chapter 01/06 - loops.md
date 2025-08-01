@@ -14,52 +14,88 @@ Python provides the so-called `for`-statements that allow us to iterate through 
 for X in iterable:
 ```
 
-That reads almost like English. We can print all letters of the word banana as follows:
+That reads almost like English. We can print all letters of the word `banana` as follows:
 
+```python runnable
 for letter in "banana":
     print(letter)
-The code in the loop is executed as many times as their are letters, with a different value for the variable letter at each iteration. Read the previous sentence again.
+```
+
+The code in the loop is executed as many times as their are letters, with a different value for the variable `letter` at each iteration. Read the previous sentence again.
 
 Likewise we can print all the items that are contained in a list:
 
+```python runnable
 colors = ["yellow", "red", "green", "blue", "purple"]
 for whatever in colors:
     print("This is color " + whatever)
-Since dictionaries are iterable objects as well, we can iterate through our good reads collection as well. This will iterate over the keys of a dictionary:
+```
+
+Since dictionaries are iterable objects as well, we can iterate through our good reads collection as well. This will iterate over the _keys_ of a dictionary:
+
+```python runnable
+good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
 
 for book in good_reads:
     print(book)
+```
+
 We can also iterate over both the keys and the values of a dictionary, this is done as follows:
 
+```python
 good_reads.items()
-for x, y in good_reads.items():
-    print(x + " has score " + str(y))
-Using items() will, at each iteration, return a nice pair of the key and the value. In the example above the variable book will loop over the keys of the dictionary, and the variable score loops over the respective values.
+```
+
+```python runnable
+good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
+
+for book, score in good_reads.items():
+    print(book + " has score " + str(score))
+```
+
+Using `items()` will, at each iteration, return a nice pair of the key and the value. In the example above the variable `book` will loop over the keys of the dictionary, and the variable `score` loops over the respective values.
 
 The above way is the most elegant way of looping over dictionaries, but try to see if you understand the following alternative as well:
 
+```python runnable
+good_reads = {"Pride and Prejudice": 8, "A Clockwork Orange": 9}
+
 for book in good_reads:
     print(book, "has score", good_reads[book])
-Quiz!
-The function len() returns the length of an iterable item:
+```
 
-len("banana")
+# Quiz!
+
+The function `len()` returns the length of an iterable item:
+
+```python runnable
+print(len("banana"))
+```
+
 We can use this function to print the length of each word in the color list. Write your code in the box below:
 
+```python runnable
 colors = ["yellow", "red", "green", "blue", "purple"]
 # insert your code here
-Now write a small program that iterates through the list colors and appends all colors that contain the letter r to the list colors_with_r. (Tip: use colors_with_r.append)
+```
 
+Now write a small program that iterates through the list `colors` and `appends` all colors that contain the letter _r_ to the list `colors_with_r`. (Tip: use `colors_with_r.append`)
+
+```python runnable
 colors = ["yellow", "red", "green", "blue", "purple"]
 colors_with_r = []
 # insert you code here
-What we have learnt
+```
+
+# What we have learnt
+
 Here is an overview of the new concepts, statements and functions we have learnt in this section. Again, go through the list and make sure you understand them all.
 
-loop
-for statement
-iterable objects
-variable assignment in a for loop
+* loop
+* `for` statement
+* iterable objects
+* variable assignment in a `for` loop
+
 <BR>
 
 ----
