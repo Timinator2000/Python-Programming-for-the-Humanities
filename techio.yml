@@ -43,4 +43,4 @@ projects:
     root: /python-project
     runner: 
       name: python
-      version: '3.6'
+      version: '3'
