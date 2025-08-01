@@ -6,11 +6,13 @@
 
 # Loops
 
-Programming is most useful if we can perform a certain action on a range of different elements. For example, given a list of words, we would like to know the length of all words, not just one. Now you could do this by going through all the indexes of a list of words and print the length of the words one at a time, taking up as many lines of code as you have indices. Needless to say, this is rather cumbersome.
+Programming is most useful if we can perform a certain action on a range of different elements. For example, given a list of words, we would like to know the length of all words, not just one. Now you _could_ do this by going through all the indexes of a list of words and print the length of the words one at a time, taking up as many lines of code as you have indices. Needless to say, this is rather cumbersome.
 
-Python provides the so-called for-statements that allow us to iterate through any iterable object and perform actions on its elements. The basic format of a for-statement is:
+Python provides the so-called `for`-statements that allow us to iterate through any iterable object and perform actions on its elements. The basic format of a `for`-statement is:
 
+```text
 for X in iterable:
+```
 
 That reads almost like English. We can print all letters of the word banana as follows:
 
