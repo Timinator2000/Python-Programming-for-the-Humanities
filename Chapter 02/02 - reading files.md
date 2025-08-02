@@ -6,7 +6,7 @@
 
 # Reading files
 
-> __Playground note:__ In the original Jupyter Notebooks, the authors use `open` and `close` when working with files. Due to the environment in which this playground runs, the follow structure is used instead:
+> __Playground Note:__ In the original Jupyter Notebooks, the authors use `open` and `close` when working with files. Due to the environment in which this playground runs, the follow structure is used instead:
 >
 > ```python
 > with open('some_file.txt', 'r') as infile:
