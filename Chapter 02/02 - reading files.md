@@ -9,21 +9,22 @@
 > __Playground note:__ In the original Jupyter Notebooks, the authors use `open` and `close` when working with files. Due to the environment in which this playground runs, the follow structure has been used instead:
 >
 > ```python
-> with open('some_file.txt', 'r') as f:
+> with open('some_file.txt', 'r') as infile:
 > ```
+>
+> As the authors mentioned in Chapter 1, indentation is very important in Python. `infile` will stay open as long as the following code is indented. Once the indentation ends, Python will automatically close `infile`. 
 
 Say you have a text stored on your computer. How can we read that text using Python? Python provides a really simple function called `open` with which we can read texts. In the folder data you find a couple of small text excerpts that we will use in this chapter. Go ahead and have a look at them. We can open these files with the following command:
 
 ```python
-infile = open('data/austen-emma-excerpt.txt')
+with open('austen-emma-excerpt.txt') as infile:
 ```
 
 We now print infile. What do you think that will happen?
 
-```python
-infile = open('data/austen-emma-excerpt.txt')
-
-print(infile)
+```python runnable
+with open('austen-emma-excerpt.txt') as infile:
+    print(infile)
 ```
 
 "Hey! That's not what I expected to happen!", you might think. Python is not printing the contents of the file but only some mysterious mention of some TextIOWrapper. This TextIOWrapper thing is Python's way of saying it has opened a connection to the file data/austen-emma-excerpt.txt. In order to read the contents of the file we must add the function read as follows:
