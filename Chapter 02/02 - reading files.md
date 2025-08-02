@@ -4,7 +4,7 @@
 |:-------:|
 | <span style="font-size: 100%"><b>_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</b></span>|
 
-# Reading files
+# Reading files - THIS ALL NEEDS TO BE REDONE WITH EXERCISES INSTEAD OF CODE SNIPPETS
 
 > __Playground Note:__ In the original Jupyter Notebooks, the authors use `open` and `close` when working with files. Due to the environment in which this playground runs, the follow structure is used instead:
 >
@@ -20,31 +20,45 @@ Say you have a text stored on your computer. How can we read that text using Pyt
 with open('data/austen-emma-excerpt.txt') as infile:
 ```
 
-We now print infile. What do you think that will happen?
+We now print `infile`. What do you think that will happen?
 
-```python runnable
+```python
 with open('data/austen-emma-excerpt.txt') as infile:
     print(infile)
 ```
 
-"Hey! That's not what I expected to happen!", you might think. Python is not printing the contents of the file but only some mysterious mention of some TextIOWrapper. This TextIOWrapper thing is Python's way of saying it has opened a connection to the file data/austen-emma-excerpt.txt. In order to read the contents of the file we must add the function read as follows:
+"Hey! That's not what I expected to happen!", you might think. Python is not printing the contents of the file but only some mysterious mention of some `TextIOWrapper`. This `TextIOWrapper` thing is Python's way of saying it has _opened_ a connection to the file `data/austen-emma-excerpt.txt`. In order to _read_ the contents of the file we must add the function _read_ as follows:
 
+```python
 print(infile.read())
-read is a function that operates on TextWrapper objects and allows us to read the contents of a file into Python. Let's assign the contents of the file to the variable text:
+```
 
+`read` is a function that operates on `TextWrapper` objects and allows us to read the contents of a file into Python. Let's assign the contents of the file to the variable `text`:
+
+```
 infile = open('data/austen-emma-excerpt.txt')
 text = infile.read()
-The variable text now holds the contents of the file data/austen-emma-excerpt.txt and we can access and manipulate it just like any other string. After we read the contents of a file, the TextWrapper no longer needs to be open. In fact, it is good practice to close it as soon as you do not need it anymore. Now, lo and behold, we can achieve that with the following:
+```
 
+The variable `text` now holds the contents of the file `data/austen-emma-excerpt.txt` and we can access and manipulate it just like any other string. After we read the contents of a file, the `TextWrapper` no longer needs to be open. In fact, it is good practice to close it as soon as you do not need it anymore. Now, lo and behold, we can achieve that with the following:
+
+```
 infile.close()
-Quiz!
-Just to recap some of the stuff we learnt in the previous chapter. Can you write code that defines the variable number_of_es and counts how many times the letter e occurs in text? (Tip: use a for loop and an if statement)
+```
+
+# Quiz!
+
+Just to recap some of the stuff we learnt in the previous chapter. Can you write code that defines the variable `number_of_es` and counts how many times the letter _e_ occurs in `text`? (Tip: use a `for` loop and an `if` statement)
+
+```python
+# read in the file
 
 number_of_es = 0
 # insert your code here
 
 # The following test should print True if your code is correct 
 print(number_of_es == 78)
+```
 
 <BR>
 
