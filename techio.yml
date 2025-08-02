@@ -25,9 +25,9 @@ plan:
   - title: Chapter 2 - First Steps Into Text Processing
     plan:
       - title: Introduction
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/01 - first steps into text processing.md
       - title: Reading Files
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/02 - reading files.md
       - title: Writing Our First Function
         statement: markdowns/Under Construction.md
       - title: A More General Count Function
