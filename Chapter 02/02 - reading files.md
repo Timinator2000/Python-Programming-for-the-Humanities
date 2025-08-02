@@ -14,16 +14,16 @@
 >
 > As the authors mentioned in Chapter 1, indentation is very important in Python. `infile` will stay open as long as the following code is indented. Once the indentation ends, Python will automatically close `infile`. 
 
-Say you have a text stored on your computer. How can we read that text using Python? Python provides a really simple function called `open` with which we can read texts. In the folder data you find a couple of small text excerpts that we will use in this chapter. Go ahead and have a look at them. We can open these files with the following command:
+Say you have a text stored on your computer. How can we read that text using Python? Python provides a really simple function called `open` with which we can read texts. In the folder `data` you find a couple of small text excerpts that we will use in this chapter. We can open these files with the following command:
 
 ```python
-with open('austen-emma-excerpt.txt') as infile:
+with open('data/austen-emma-excerpt.txt') as infile:
 ```
 
 We now print infile. What do you think that will happen?
 
 ```python runnable
-with open('austen-emma-excerpt.txt') as infile:
+with open('data/austen-emma-excerpt.txt') as infile:
     print(infile)
 ```
 
