@@ -29,7 +29,7 @@ plan:
       - title: Reading Files
         statement: Chapter 02/02 - reading files.md
       - title: Writing Our First Function
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/03 - writing our first function.md
       - title: A More General Count Function
         statement: markdowns/Under Construction.md
       - title: Text Clean Up
