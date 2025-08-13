@@ -72,14 +72,19 @@ def counter(list_to_search):
 print(counter(words))
 ```
 
-Quiz!
-Let's put some of the stuff we learnt so far together. What we want you to do is to read into Python the file data/austen-emma.txt, convert it to a list of words and assign to the variable emma_count how often the word Emma occurs in the text.
+# Quiz!
 
+Let's put some of the stuff we learnt so far together. What we want you to do is to read into Python the file `data/austen-emma.txt`, convert it to a list of words and assign to the variable `emma_count` how often the word Emma occurs in the text.
+
+```python runnable
 emma_count = 0
 # insert you code here
+```
 
+```python
 # The following test should print True if your code is correct 
 print(emma_count == 481)
+```
 
 ----
 
