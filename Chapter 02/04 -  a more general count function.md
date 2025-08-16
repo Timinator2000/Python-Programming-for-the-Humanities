@@ -14,4 +14,4 @@ Our function `count_in_list` is a concise and convenient piece of code allowing 
 
 [Python Programming for the Humanities](http://fbkarsdorp.github.io/python-course) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Based on a work at https://github.com/fbkarsdorp/python-course.
 
-![Creative Commons](CreativeCommons.png)
+![Creative Commons](../graphics/CreativeCommons.png)
