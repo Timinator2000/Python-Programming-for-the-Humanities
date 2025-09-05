@@ -4,7 +4,7 @@
 |:-------:|
 | <span style="font-size: 100%"><b>_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</b></span>|
 
-# Reading files - THIS ALL NEEDS TO BE REDONE WITH EXERCISES INSTEAD OF CODE SNIPPETS
+# Reading Files - THIS ALL NEEDS TO BE REDONE WITH EXERCISES INSTEAD OF CODE SNIPPETS
 
 > __Playground Note:__ In the original Jupyter Notebooks, the authors use `open` and `close` when working with files. Due to the environment in which this playground runs, the follow structure is used instead:
 >

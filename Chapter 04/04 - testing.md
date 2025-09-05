@@ -10,7 +10,7 @@ Always test your code, things never go right the first time, not even for experi
 
 To debug your code, it often helps to insert some temporary explicit print statements along the way, outputting the value of certain variables. This can help you spot if things are really progressing the way they should.
 
-# If You're Stuck...
+# If You Get Stuck...
 
 ...use library references, 3rd party modules, google errors and AI!
 

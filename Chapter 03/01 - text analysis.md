@@ -4,7 +4,7 @@
 |:-------:|
 | <span style="font-size: 100%"><b>_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</b></span>|
 
-# Text Analysis
+# Chapter 3: Text Analysis
 
 In this chapter we will introduce you to the task of text analysis in Python. You will learn how to read an entire corpus into Python, clean it and how to perform certain data analyses on those texts. We will also briefly introduce you to using Python's plotting library *matplotlib*, with which you can visualize your data.
 

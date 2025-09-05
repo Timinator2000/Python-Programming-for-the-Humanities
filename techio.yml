@@ -23,8 +23,8 @@ plan:
       - title: Final Quiz!
         statement: Chapter 01/07 - final quiz.md
   - title: Chapter 2 - First Steps Into Text Processing
-    plan:
-      - title: Introduction
+    plan: 
+      - title: First Steps Into Text Processing
         statement: Chapter 02/01 - first steps into text processing.md
       - title: Reading Files
         statement: Chapter 02/02 - reading files.md
@@ -44,7 +44,7 @@ plan:
         statement: Chapter 02/09 - final quiz.md
   - title: Chapter 3 - Text Analysis
     plan:
-      - title: Introduction
+      - title: Text Analysis
         statement: Chapter 03/01 - text analysis.md
       - title: Sentence Tokenization
         statement: Chapter 03/02 - sentence tokenization.md
@@ -66,16 +66,12 @@ plan:
         statement: Chapter 04/04 - testing.md
   - title: Chapter 5 - Building NLP Applications
     plan:
-      - title: 
-        statement: Chapter 05/01 - .md
-      - title: 
-        statement: Chapter 05/02 - .md
-      - title: 
-        statement: Chapter 05/03 - .md
-      - title: 
-        statement: Chapter 05/04 - .md
-      - title: 
-        statement: Chapter 05/05 - .md
+      - title: Bulding NLP Applications
+        statement: Chapter 05/01 - building nlp applications.md
+      - title: Automatic Readability Index
+        statement: Chapter 05/02 - automatic readability index.md
+      - title: Authorship Attribution
+        statement: Chapter 05/03 - authorship attribution.md
   # - title: Chapter 6 - 
   #   plan:
   #     - title: 
