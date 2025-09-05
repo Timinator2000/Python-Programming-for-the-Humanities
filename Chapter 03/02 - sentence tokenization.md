@@ -10,7 +10,11 @@ In the previous chapter we wrote a function to tokenize or split a text string i
 
 How should we tackle this problem? Have a look at the following picture:
 
-![String Indexing](indexing.png)
+<BR>
+
+![String Indexing](Indexing.png)
+
+<BR>
 
 The first sentence *Hello there!* spans from index 0 to index 11. The second sentence from 13 to 26. If we come up with a way to extract those indexes, we could slice the text into separate sentences. First we define a utility function `end_of_sentence` that takes as argument a character and returns `True` if it is an end-of-sentence marker, otherwise it returns `False`. 
 
@@ -29,7 +33,7 @@ print(end_of_sentence_marker("?") == True)
 print(end_of_sentence_marker("a") == False)
 ```
 
----
+# Splitting Sentences
 
 An important function we will use is the built in `enumerate`. `enumerate` takes as argument any iterable (a string a list etc.). Let's see it in action:
 

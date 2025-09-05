@@ -76,7 +76,11 @@ The suspense created by Shahrazad’s story-telling skills is intriguing, especi
 
 I am not aware of any exact numbers about how many words people speak per minute. Averages seem to fluctuate between 100 and 200 words per minute. Narrators are advised to use approximately 150 words per minute in audiobooks. I suspect that this number is a little lower for live storytelling and assume it lies around 130 words per minute (including pauses). Using this information, we can compute the time it takes to tell a particular story as follows:
 
-$$\textrm{story time}(\textrm{text}) = \frac{\textrm{number of words in text}}{\textrm{number of words per minute}}$$
+<BR>
+
+![Story Time](StoryTimeFormula.png)
+
+<BR>
 
 # Quiz!
 
