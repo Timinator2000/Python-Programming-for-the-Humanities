@@ -15,7 +15,7 @@ The naive bayes classifier is a probabilistic classifier that, given a set of fe
 <BR>
 
 ```math
-$$ P(y|x_1,\ldots,x_n) \propto P(y) \prod^n_{i=1} P(x_i|y) $$
+P(y|x_1,\ldots,x_n) \propto P(y) \prod^n_{i=1} P(x_i|y)
 ```
 
 inline formula: $ P(y|x_1,\ldots,x_n) \propto P(y) \prod^n_{i=1} P(x_i|y) $
