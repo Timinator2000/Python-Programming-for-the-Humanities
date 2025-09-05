@@ -60,12 +60,82 @@ plan:
         statement: Chapter 04/01 - programming principles.md
       - title: Data Structures
         statement: Chapter 04/02 - data structures.md
+      - title: Breaking Up Your Code
+        statement: Chapter 04/03 - breaking up your code.md
+      - title: Testing
+        statement: Chapter 04/04 - testing.md
+  - title: Chapter 5 - Building NLP Applications
+    plan:
       - title: 
-        statement: Chapter 04/03 - .md
+        statement: Chapter 05/01 - .md
       - title: 
-        statement: Chapter 04/04 - .md
+        statement: Chapter 05/02 - .md
       - title: 
-        statement: Chapter 04/05 - .md
+        statement: Chapter 05/03 - .md
+      - title: 
+        statement: Chapter 05/04 - .md
+      - title: 
+        statement: Chapter 05/05 - .md
+  # - title: Chapter 6 - 
+  #   plan:
+  #     - title: 
+  #       statement: Chapter 06/01 - .md
+  #     - title: 
+  #       statement: Chapter 06/02 - .md
+  #     - title: 
+  #       statement: Chapter 06/03 - .md
+  #     - title: 
+  #       statement: Chapter 06/04 - .md
+  #     - title: 
+  #       statement: Chapter 06/05 - .md
+  # - title: Chapter 7 - 
+  #   plan:
+  #     - title: 
+  #       statement: Chapter 07/01 - .md
+  #     - title: 
+  #       statement: Chapter 07/02 - .md
+  #     - title: 
+  #       statement: Chapter 07/03 - .md
+  #     - title: 
+  #       statement: Chapter 07/04 - .md
+  #     - title: 
+  #       statement: Chapter 07/05 - .md
+  # - title: Chapter 8 - 
+  #   plan:
+  #     - title: 
+  #       statement: Chapter 08/01 - .md
+  #     - title: 
+  #       statement: Chapter 08/02 - .md
+  #     - title: 
+  #       statement: Chapter 08/03 - .md
+  #     - title: 
+  #       statement: Chapter 08/04 - .md
+  #     - title: 
+  #       statement: Chapter 08/05 - .md
+  # - title: Chapter 9 - 
+  #   plan:
+  #     - title: 
+  #       statement: Chapter 09/01 - .md
+  #     - title: 
+  #       statement: Chapter 09/02 - .md
+  #     - title: 
+  #       statement: Chapter 09/03 - .md
+  #     - title: 
+  #       statement: Chapter 09/04 - .md
+  #     - title: 
+  #       statement: Chapter 09/05 - .md
+  # - title: Chapter 10 - 
+  #   plan:
+  #     - title: 
+  #       statement: Chapter 10/01 - .md
+  #     - title: 
+  #       statement: Chapter 10/02 - .md
+  #     - title: 
+  #       statement: Chapter 10/03 - .md
+  #     - title: 
+  #       statement: Chapter 10/04 - .md
+  #     - title: 
+  #       statement: Chapter 10/05 - .md
 projects:
   python:
     root: /python-project
