@@ -31,13 +31,17 @@ plan:
       - title: Writing Our First Function
         statement: Chapter 02/03 - writing our first function.md
       - title: A More General Count Function
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/04 - a more general count function.md
+      - title: A Count Function (take 1)
+        statement: Chapter 02/05 - a count function (take 1).md
+      - title: A Count Function (take 2)
+        statement: Chapter 02/06 - a count function (take 2).md
       - title: Text Clean Up
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/07 - text clean up.md
       - title: Writing Results to a File
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/08 - writing results to a file.md
       - title: Final Quiz!
-        statement: markdowns/Under Construction.md
+        statement: Chapter 02/09 - final quiz.md
 projects:
   python:
     root: /python-project
