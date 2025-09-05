@@ -12,14 +12,23 @@ The core of our application will be a naive bayes classifier. Following good pro
 
 The naive bayes classifier is a probabilistic classifier that, given a set of features, tries to find the class with the highest probability. It is based on applying Bayes' theorem and is called naive because of its strong independence assumption between features. This means that the absence or presence of each feature is assumed to be independent of each other. We compute the posterior probability of a class as the joint probability of all features given that class:
 
+<BR>
+
 ```math
 P(y|x_1,\ldots,x_n) \propto P(y) \prod^n_{i=1} P(x_i|y)
 ```
+
+<BR>
+
 Classification is based on the *maximum a posteriori* or MAP descision rule which simply picks the class (or author in our case) that is most probable:
+
+<BR>
 
 ```math
 classify(x_1, \ldots, x_n) = \arg\max_y P(y) \prod^n_{i=1} P(x_i|y)
 ```
+
+<BR>
 
 The main function we will implement has a simple job: take a text as an argument and classify it as being written by one of the authors. Let's again apply some wishful thinking and implement the function as follows:
 
@@ -221,6 +230,8 @@ def test_from_corpus(directory, feature_database):
 ---------
 
 Finally we will implement the function `analyze_results` which takes a list of `(ground-truth-author, predicted-author)` tuples as input and returns the accuracy of the classifier, which is defined as:
+
+<BR>
 
 ```math
 accuracy(X) = \frac{\textrm{number of correct predictions}}{\textrm{total number of predictions}}
