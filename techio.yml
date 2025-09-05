@@ -42,6 +42,18 @@ plan:
         statement: Chapter 02/08 - writing results to a file.md
       - title: Final Quiz!
         statement: Chapter 02/09 - final quiz.md
+  - title: Chapter 3 - Text Analysis
+    plan:
+      - title: Introduction
+        statement: Chapter 03/01 - text analysis.md
+      - title: Sentence Tokenization
+        statement: Chapter 03/02 - sentence tokenization.md
+      - title: General Text Statistics
+        statement: Chapter 03/03 - general text statistics.md
+      - title: Exploratory Data Analysis
+        statement: Chapter 03/04 - exploratory data analysis.md
+      - title: Visualizing General Statistics
+        statement: Chapter 03/05 - visualizing general statistics.md
 projects:
   python:
     root: /python-project
