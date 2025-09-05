@@ -4,7 +4,9 @@
 |:-------:|
 | <span style="font-size: 100%"><b>_-- A Python Course for the Humanities by Folgert Karsdorp and Maarten van Gompel_</b></span>|
 
+# Chapter 4: Programming Principles
 
+By now you will have a sense of how to use Python for some basic programming. There is, however, still quite some ground to cover before you will have full control over the language. Don't worry, you will get there. This chapter will help you in writing more structured programs, provide you with some best practices and will teach you about some more general programming strategies.
 
 <BR>
 

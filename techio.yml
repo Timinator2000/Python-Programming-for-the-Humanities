@@ -54,6 +54,18 @@ plan:
         statement: Chapter 03/04 - exploratory data analysis.md
       - title: Visualizing General Statistics
         statement: Chapter 03/05 - visualizing general statistics.md
+  - title: Chapter 4 - Programming Principles
+    plan:
+      - title: Programming Principles
+        statement: Chapter 04/01 - programming principles.md
+      - title: Data Structures
+        statement: Chapter 04/02 - data structures.md
+      - title: 
+        statement: Chapter 04/03 - .md
+      - title: 
+        statement: Chapter 04/04 - .md
+      - title: 
+        statement: Chapter 04/05 - .md
 projects:
   python:
     root: /python-project
