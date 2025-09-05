@@ -6,7 +6,7 @@
 
 # Quiz!
 
-In the final quiz of this chapter we will ask you to write the frequency distribution over the words in data/austen-emma.txt to the file data/austen-frequency-distribution.txt. We will give you some code to get you started
+In the final quiz of this chapter we will ask you to write the frequency distribution over the words in `data/austen-emma.txt` to the file `data/austen-frequency-distribution.txt`. We will give you some code to get you started:
 
 ```python runnable
 # first open and read data/austen-emma.txt. Don't forget to close the infile

@@ -55,8 +55,6 @@ We have written two functions `counter` and `counter2`, both used to count for e
 
 Double click this cell and write down your answer.
 
-
-
 <BR>
 
 ----
