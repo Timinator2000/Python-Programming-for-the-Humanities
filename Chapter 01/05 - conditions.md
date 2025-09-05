@@ -6,11 +6,11 @@
 
 # Simple Conditions
 
-A lot of programming has to do with executing a certain piece of code if a particular condition holds. We have already seen two conditions at the very beginning of the chapter. Here we give a brief overview. Can you figure our what all of the conditions do?
+A lot of programming has to do with executing a certain piece of code if a particular condition holds. We have already seen two conditions at the very beginning of the chapter. Here we give a brief overview. Can you figure out what all of the conditions do?
 
 ```python runnable
 print("2 < 5 =", 2 < 5)
-print("3 > 7 =", 3 >= 7)
+print("3 > 7 =", 3 > 7)
 print("3 == 4 =", 3 == 4)
 print("school == homework =", "school" == "homework")
 print("Python != perl =", "Python" != "perl")
@@ -68,7 +68,7 @@ if book in good_reads:
     print("Found it!")
 ```
 
-Notice that the print statement in the last code block is not executed. That is because the value we assigned to `book` is not in our collection and thus the part after if did not evaluate to `True`. In our little program above we used another statement besides `if`, namely `else`. It shouldn't be too hard to figure out what's going on here. The part after `else` will be executed if the `if` statement evaluated to `False`. In English: if the book is not in the collection, print that it is not.
+Notice that the print statement in the last code block is not executed. That is because the value we assigned to `book` is not in our collection and thus the part after `if` did not evaluate to `True`. In our little program above we used another statement besides `if`, namely `else`. It shouldn't be too hard to figure out what's going on here. The part after `else` will be executed if the `if` statement evaluated to `False`. In English: if the book is not in the collection, print that it is not.
 
 # Indentation!
 
@@ -110,7 +110,7 @@ Let's practice our new condition skills a little. Write a small program that def
 
 # and, or, not
 
-Up to this point, our conditions have consisted of single expresssions. However, quite often we would like to test for multiple conditions and then execute a particular piece of code. Python provides a number of ways to do that. The first is with the `and` statement. `and` allows us to juxtapose two expressions that need to be true in order to make the entire expression evaluate to `True`. Let's see how that works:
+Up to this point, our conditions have consisted of single expressions. However, quite often we would like to test for multiple conditions and then execute a particular piece of code. Python provides a number of ways to do that. The first is with the `and` statement. `and` allows us to juxtapose two expressions that need to be true in order to make the entire expression evaluate to `True`. Let's see how that works:
 
 ```python runnable
 word = "banana"

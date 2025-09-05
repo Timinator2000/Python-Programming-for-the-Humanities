@@ -6,7 +6,7 @@
 
 # String Manipulation
 
-Many disciplines within the humanities work on texts. Quite naturally programming for the humanities will focus a lot on manipulating texts. In the last quiz you were asked to define a variable that points to a string that represents your name. We have already seen some basic arithmetic in our very first calculation. Not only numbers, but also strings can be added, or, more precisely, concatenated, together as well:
+Many disciplines within the humanities work on texts. Quite naturally programming for the humanities will focus a lot on manipulating texts. In the last quiz you were asked to define a variable that points to a string that represents your name. We have already seen some basic arithmetic in our very first calculation. Not only numbers, but also strings can be added, or, more precisely, _concatenated_, together as well:
 
 ```python runnable
 name = "Grace Hopper"

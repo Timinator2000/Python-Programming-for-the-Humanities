@@ -12,7 +12,7 @@ Consider the sentence below:
 sentence = "Python's name is derived from the television series Monty Python's Flying Circus."
 ```
 
-Words are made up of characters, and so are string objects in Python. As we will see, it is always to be prefered to represent our data as naturally as possible. Now for the sentence above, it seems more natural to describe it in terms of words than in terms of characters. Say we want to access the first word in our sentence. If we type in:
+Words are made up of characters, and so are string objects in Python. As we will see, it is always to be preferred to represent our data as naturally as possible. Now for the sentence above, it seems more natural to describe it in terms of words than in terms of characters. Say we want to access the first word in our sentence. If we type in:
 
 ```python runnable
 sentence = "Python's name is derived from the television series Monty Python's Flying Circus."

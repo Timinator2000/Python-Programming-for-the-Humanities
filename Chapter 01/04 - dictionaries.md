@@ -27,7 +27,7 @@ description = my_dict["sword"]
 print(description)
 ```
 
-We say 'index', because we use the same syntax with square brackets when indexing lists or strings. The differences is that we don't use a position number to index a dictionary, but a key. Like lists, dictionaries are mutable which means we can add and remove entries from it. Let's define an empty dictionary and add some books to it. The titles will be our keys and the scores their values. Watch the syntax to add a new entry:
+We say 'index', because we use the same syntax with square brackets when indexing lists or strings. The difference is that we don't use a position number to index a dictionary, but a key. Like lists, dictionaries are mutable which means we can add and remove entries from it. Let's define an empty dictionary and add some books to it. The titles will be our keys and the scores their values. Watch the syntax to add a new entry:
 
 ```python runnable
 good_reads = {}
