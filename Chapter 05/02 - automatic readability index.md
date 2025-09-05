@@ -10,7 +10,9 @@ The *Automatic Readability Index* is a readability test designed to gauge the un
 
 <BR>
 
-![Automatic Readability Index](AutomaticReadabilityIndexFormula.png)
+```math
+4.71 \cdot \frac{nchars}{nwords} + 0.5 \cdot \frac{nwords}{nsents} - 21.43
+```
 
 <BR>
 

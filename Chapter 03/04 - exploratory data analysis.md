@@ -78,7 +78,9 @@ I am not aware of any exact numbers about how many words people speak per minute
 
 <BR>
 
-![Story Time](StoryTimeFormula.png)
+```math
+\textrm{story time}(\textrm{text}) = \frac{\textrm{number of words in text}}{\textrm{number of words per minute}}
+```
 
 <BR>
 
