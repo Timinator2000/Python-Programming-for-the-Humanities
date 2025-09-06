@@ -10,54 +10,13 @@ To efficiently give an answer to such queries we need to come up with another re
 
 <BR>
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>12-11-1928</th>
-      <th>04-04-1946</th>
-      <th>03-11-1983</th>
-      <th>19-01-1999</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Einstein</th>
-      <td> 1</td>
-      <td> 1</td>
-      <td> 0</td>
-      <td> 0</td>
-    </tr>
-    <tr>
-      <th>Hubble</th>
-      <td> 1</td>
-      <td> 1</td>
-      <td> 1</td>
-      <td> 0</td>
-    </tr>
-    <tr>
-      <th>Fermi</th>
-      <td> 1</td>
-      <td> 0</td>
-      <td> 0</td>
-      <td> 0</td>
-    </tr>
-    <tr>
-      <th>Winfrey</th>
-      <td> 0</td>
-      <td> 0</td>
-      <td> 0</td>
-      <td> 1</td>
-    </tr>
-    <tr>
-      <th>Dylan</th>
-      <td> 0</td>
-      <td> 0</td>
-      <td> 1</td>
-      <td> 1</td>
-    </tr>
-  </tbody>
-</table>
+| | 12-11-1928 | 04-04-1946 | 03-11-1983 | 19-01-1999 |
+|:---:|:---:|:---:|:---:|:---:|
+| Einstein | 1 | 1 | 0 | 0 |
+| Hubble | 1 | 1 | 1 | 0 |
+| Fermi | 1 | 0 | 0 | 0 |
+| Winfrey | 0 | 0 | 0 | 1 |
+| Dylan | 0 | 0 | 1 | 1 |
 
 <BR>
 
