@@ -8,6 +8,8 @@
 
 ---
 
+# Chapter 5: Building NLP Applications
+
 In the last chapter we made some tools to prepare corpora for further processing. To be able to tokenise a text is nice, but from a humanities perspective not very interesting. So, what are we going to do with it? In this chapter, you'll implement two major applications that build upon the tools you developed. The first will be a relatively simple program that scores each text in a corpus according to its *Automatic Readability Index*. In the second application we will build a system that can predict who wrote a certain text. Again, we'll need to cover a lot of ground and things are becoming increasingly difficult now. So, let's get started!
 
 <BR>

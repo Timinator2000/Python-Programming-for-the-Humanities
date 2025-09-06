@@ -72,30 +72,34 @@ plan:
         statement: Chapter 05/02 - automatic readability index.md
       - title: Authorship Attribution
         statement: Chapter 05/03 - authorship attribution.md
-  # - title: Chapter 6 - 
-  #   plan:
-  #     - title: 
-  #       statement: Chapter 06/01 - .md
-  #     - title: 
-  #       statement: Chapter 06/02 - .md
-  #     - title: 
-  #       statement: Chapter 06/03 - .md
-  #     - title: 
-  #       statement: Chapter 06/04 - .md
-  #     - title: 
-  #       statement: Chapter 06/05 - .md
-  # - title: Chapter 7 - 
-  #   plan:
-  #     - title: 
-  #       statement: Chapter 07/01 - .md
-  #     - title: 
-  #       statement: Chapter 07/02 - .md
-  #     - title: 
-  #       statement: Chapter 07/03 - .md
-  #     - title: 
-  #       statement: Chapter 07/04 - .md
-  #     - title: 
-  #       statement: Chapter 07/05 - .md
+  - title: Chapter 6 - Object-Oriented Programming
+    plan:
+      - title: Object-Oriented Programming
+        statement: Chapter 06/01 - object-oriented programming.md
+      - title: Inhertance
+        statement: Chapter 06/02 - inheritance.md
+      - title: Operator Overloading
+        statement: Chapter 06/03 - operator overloading.md
+      - title: Iteration Over an Object
+        statement: Chapter 06/04 - iteration over an object.md
+      - title: Extracting a Social Network of Twitter Users
+        statement: Chapter 06/05 - extracting a social network.md
+  - title: Chapter 7 - Searching Large Collections of Text
+    plan:
+      - title: Searching Large Collections of Text
+        statement: Chapter 07/01 - searching large collections of text.md
+      - title: Indexing Collections of Text
+        statement: Chapter 07/02 - indexing collections of text.md
+      - title: Term Document Incidence Matrix
+        statement: Chapter 07/03 - term document incidence matrix.md
+      - title: Inverted Index
+        statement: Chapter 07/04 - inverted index.md
+      - title: Query the Index
+        statement: Chapter 07/05 - query the index.md
+      - title: Okapi BM25
+        statement: Chapter 07/06 - okapi bm25.md
+      - title: Final Exercise
+        statement: Chapter 07/07 - final exercise.md
   # - title: Chapter 8 - 
   #   plan:
   #     - title: 
